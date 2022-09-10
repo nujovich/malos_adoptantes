@@ -1,7 +1,7 @@
-import { Description } from './Description'
+import { Description } from './components/Description'
 import './input.css'
-import { Grid } from './Grid'
-import { Title } from './Title'
+import { Grid } from './components/Grid'
+import { Title } from './components/Title'
 
 function App() {
 

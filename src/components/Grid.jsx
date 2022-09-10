@@ -1,4 +1,4 @@
-import { people } from "./assets/util"
+import { people } from "../assets/util"
 import { Button } from "./Button"
 
 export const Grid = () => {
