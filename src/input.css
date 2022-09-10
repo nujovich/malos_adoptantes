@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply
+    m-0
+    p-0
+    box-border
+}
+
+#root {
+  @apply
+    max-w-7xl
+    mx-auto
+    my-0
+    p-8
+    text-center
+}
+
+.app__title{
+  @apply
+    text-3xl 
+    font-medium
+    mb-3
+    underline
+    uppercase
+}
+
+.app__description{
+  @apply
+    text-lg 
+    font-mono
+}
+
+.text__stand__out{
+  @apply
+    text-red-600
+    underline
+    font-bold
+
+}
+
+.people__list{
+  @apply
+    mt-2
+    divide-y
+    divide-gray-400
+}
+
+.person__item{
+  @apply
+    py-4 
+    flex
+}
+
+.person__image{
+  @apply
+    h-32 
+    w-32
+    rounded-full
+    border-solid
+    border-4
+    border-red-700
+    self-center
+
+}
+
+.person__data{
+  @apply
+    ml-3
+}
+
+.person__name{
+  @apply
+    text-lg 
+    font-black
+    text-gray-900
+}
+
+.person__description{
+  @apply
+    text-sm
+    text-gray-500
+    m-2
+}
+
+.body__button{
+  @apply
+    bg-white
+    hover:bg-gray-100
+    text-gray-800 
+    font-semibold 
+    py-2 
+    px-4 
+    border
+    border-gray-400 rounded shadow
+    m-2
+    flex
+}
